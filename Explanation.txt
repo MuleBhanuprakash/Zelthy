@@ -1,0 +1,47 @@
+The Explanation for the given Assignment as follows:
+
+
+Assignment 1:
+Write a program to get data from API and write it to excel
+
+solution:
+
+For this i answered in two ways, they are
+	1. By using csv file method
+	2. By using json_excel_converter method
+
+Both will get the data from Api which you were given and write it to a Exel file.
+
+Answer are in jsonExel.py and jsonExel2.py files
+
+
+
+Assignment 2:
+Write a program which accepts text input from user and saves it in a text file
+
+solution:
+for this i created a folder with current date and save file in it. And it accepts input from user in CLI
+
+Note: In the above when we run the program each time it will create new data and eliminate the previous data in same file
+
+Answer in fileinput.py file
+
+
+Assignment 3:
+Write a python class that is able to find three available WiFi networks with the strongest signal 
+and connect to the one where the password is provided. 
+
+solution: 
+For this first i listed all the wifi networks along with their SSID after that i list all wifi network names into a list.
+After that user able to see First 3 strongest network in first 3. And user able select the options from 3. If we enter correct credentials it able to log in to wifi 
+
+Note1: If user enter invalid choice it will raise NameError: name 'name' is not defined
+Note2: If there is no wifi found are less than 3 it will raise IndexError: list index out of range
+
+Please re run the program it will works fine.
+
+answer is in wifiname.py file
+
+
+I hope this will enough and iam not going further like handling errors etc.
+ 
